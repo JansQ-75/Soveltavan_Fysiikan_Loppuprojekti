@@ -5,6 +5,6 @@ Phyphox-sovelluksella kerätystä mittauksesta.
 
 Analyysia varten tuli kävellä useamman minuutin ajan. Ensin käveltiin rauhallista vauhtia, seuraavaksi reipasta vauhtia ja lopuksi nopeampaa vauhtia (hölkkä/juoksu).
 
-## Käynnistys paikallisesti
+## Sovellus voidaan ajaa komennolla
 ```bash
-streamlit run FysiikanLoppuprojekti.py
+streamlit run https://raw.githubusercontent.com/JansQ-75/Soveltavan_Fysiikan_Loppuprojekti/main/FysiikanLoppuprojekti.py
