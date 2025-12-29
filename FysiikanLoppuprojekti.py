@@ -38,7 +38,7 @@ def haversine(lon1, lat1, lon2, lat2):
 #=====================================================================================================
 
 df_acc = pd.read_csv('https://raw.githubusercontent.com/JansQ-75/Soveltavan_Fysiikan_Loppuprojekti/main/loppuprojektiData/kiihtyvyys.csv')
-df_gps = pd.read_csv('https://raw.githubusercontent.com/JansQ-75/Soveltavan_Fysiikan_Loppuprojekti/blob/main/loppuprojektiData/gepsi.csv')
+df_gps = pd.read_csv('https://raw.githubusercontent.com/JansQ-75/Soveltavan_Fysiikan_Loppuprojekti/main/loppuprojektiData/gepsi.csv')
 
 # Kiihtyvyys
 data = df_acc['Linear Acceleration y (m/s^2)']  # askeleet näkyvät y-komponentissa
